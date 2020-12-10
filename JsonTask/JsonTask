@@ -1,0 +1,42 @@
+{
+  "general": {
+    "classification": "drs803"
+  },
+  "device": {
+    "brandName": "Test Brand",
+    "code": "ABC"
+  },
+  "initialReporter": {
+    "firstName": "Test FirstName",
+    "initialReporter": "Greg",
+    "phone": "+380503451123"
+  },
+  "manufacturers": {
+    "siteAddress": "Test Mfg Address",
+    "siteRegionState": "IL",
+    "reportSource": "Literature",
+    "officePhoneNumber": "+1(113)984-5656",
+    "siteName": "Test Inc Ltd",
+    "childCompanies" : {
+	"Amazon" : {
+	  "address" : "Amazon Address",
+	  "state" : "LA",
+	  "phone" : "123456"
+	},
+	"Ebay" : {
+	  "address" : "Ebay Address",
+	  "state" : "TA",
+	  "phone" : "123456"
+	},
+	"Google" : {
+	  "address" : "Google Address",
+	  "state" : "FL",
+	  "phone" : "133756"
+	}
+  }
+  },
+  "deviceManufacturers": {
+    "typeOfReportableEvent": "Malfunction",
+    "correctedData": "Test corrected Data"
+  }
+}
