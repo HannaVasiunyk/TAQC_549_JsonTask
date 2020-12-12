@@ -1,3 +1,5 @@
+package model;
+
 public class ChildCompany {
 
     private String name;

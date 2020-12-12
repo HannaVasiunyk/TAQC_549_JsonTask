@@ -1,14 +1,19 @@
+package parser.impl;
+
+import model.ChildCompany;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import parser.JsonParser;
 
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JsonParser {
+public class JsonParserImpl implements JsonParser {
 
+    @Override
     public List<ChildCompany> getChildCompanies() {
         JSONObject json = readJson();
 
